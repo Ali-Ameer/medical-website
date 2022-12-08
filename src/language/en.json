@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "logo": "Sehaty",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "btn": "Book now"
+  },
+  "header": {
+    "title": "*Take care* of your body and it will take *care of you.*",
+    "paragraph": " Lorem ipsum dolor sit amet, consectetur adipisci ng elit. Ut et massa mi Aliquam in hendr urna, consectetur si uta adipiscing elit. Ut et massa mi.",
+    "drName": "Dr. sarah smith",
+    "makeAppointment": "make appointment",
+    "cards": {
+      "card1": {
+        "title": "Check doctor profile",
+        "paragraph": "we can help you find available vaccine appoinments near you or notify you when availability."
+      },
+      "card2": {
+        "title": "Schedule appointment",
+        "paragraph": "From seasonal allergies to burn identification and treatments, we have the resources."
+      },
+      "card3": {
+        "title": "Get yor solution",
+        "paragraph": "we can help you find available vaccine appoinments near you or notify you when availability."
+      }
+    }
+  },
+  "about": {
+    "sectionName": "ABOUT US",
+    "title": "Who we are?",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur ullamco laboris nisi ut aliquip ex ea commodo adipiscing elit, sed do eiusmod tempor,\n \r incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo aliquip ex ea commodo adipiscing elit, sed do eiusmod tempor consequat.",
+    "btn": "make appointment",
+
+    "popupCard": "16 Years of experience",
+    "drName": "Dr. sarah smith"
+  },
+  "howItWork": {
+    "title": "How it work",
+    "paragraph": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus molestias officia quas doloremque veniam voluptates officiis.",
+
+    "cards": {
+      "card1": {
+        "title": "Book an appointment",
+        "paragraph": "Book an appointment our clients are our priority we offer quality services."
+      },
+      "card2": {
+        "title": "Come to clinic",
+        "paragraph": "our clients are our priority we offer quality services."
+      },
+      "card3": {
+        "title": "Get your treatment",
+        "paragraph": "our clients are our priority we offer quality services."
+      }
+    }
+  },
+  "testimonial": {
+    "sectionName": "testimonial",
+    "title": "What our patient say",
+    "patient1": {
+      "name": "Ali Ameer",
+      "bio": "Happy patient",
+      "title": "it was a amazing experience!",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sint tenetur harum ipsa. Reprehenderit soluta voluptate ut sunt harum neque dolorum quis \n \r tempore nam possimus consequuntur rerum modi suscipit labore eius, tenetur hic facilis? Suscipit laborum ad, dignissimos blanditiis obcaecati Reprehenderit soluta voluptate ut sunt harum neque dolorum quis tempore nam possimus corrupti tenetur dolorum quaerat labore incidunt porro. Quae, rem."
+    },
+    "patient2": {
+      "name": "Jessica tailor",
+      "bio": "Happy patient",
+      " title": "Lorem ipsum dolor sit amet consectetur",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sint tenetur harum ipsa. Reprehenderit soluta voluptate ut sunt harum neque dolorum quis tempore nam possimus consequuntur rerum modi suscipit labore eius, tenetur hic \n \r facilis? Suscipit laborum ad, dignissimos blanditiis obcaecati corrupti Reprehenderit soluta voluptate ut sunt harum neque dolorum quis tempore nam possimustenetur dolorum quaerat labore incidunt porro. Quae, rem."
+    },
+    "patient3": {
+      "name": "John doe",
+      "bio": "Happy patient",
+      "title": "Lorem ipsum dolor sit amet consectetur!!",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sint tenetur harum ipsa. Reprehenderit soluta voluptate ut sunt harum neque dolorum quis tempore nam possimus consequuntur rerum modi suscipit labore eius, tenetur hic \n \r facilis? Suscipit laborum ad, dignissimos blanditiis obcaecati corrupti Reprehenderit soluta voluptate ut sunt harum neque dolorum quis tempore nam possimustenetur dolorum quaerat labore incidunt porro. Quae, rem."
+    }
+  },
+  "contact": {
+    "sectionName": "Contact",
+    "title": "Make an Appointment",
+    "paragraph": "We are so glad to hear from you, contact us or make an Appointment and we will contact you soon as possible to confirm appointment.",
+    "infoCard": {
+      "title": "Quick contact",
+      "phone": "+123 456 789",
+      "time": "Sunday - Thursday - 10:00 am - 9:00 pm"
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "phone number",
+      "msg": "Message",
+      "btn": "Make appointment"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Want medical news and new offers?",
+      "paragraph": "Sing up our newsletter to stay up to date.",
+      "inputPlaceholder": "Enter your email",
+      "btn": "Notify me"
+    },
+    "links": {
+      "home":"Home",
+      "about":"About",
+      "testimonials": "testimonials",
+      "contact":"Contact"
+    },
+    "copyRight": "make with ❤️ by Ali Ameer"
+  },
+  "404": {
+    "p": "Ops, 404 Error?",
+    "h1": "Page not found!",
+    "link": "Go to home page"
+  }
+}
