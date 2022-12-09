@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/medical-website/static/css/main.078f751c.css",
+    "main.js": "/medical-website/static/js/main.107426dd.js",
+    "static/js/787.6eb144a4.chunk.js": "/medical-website/static/js/787.6eb144a4.chunk.js",
+    "static/media/female-doctor-pointing.png": "/medical-website/static/media/female-doctor-pointing.7f5091dd2a5f2e3254d7.png",
+    "static/media/female-doctor-pointing-left.png": "/medical-website/static/media/female-doctor-pointing-left.001b68126ee8e17ec784.png",
+    "static/media/dr-avatar.png": "/medical-website/static/media/dr-avatar.f88aad9ead9724e43657.png",
+    "static/media/user1.png": "/medical-website/static/media/user1.b290f11e48172ec1f903.png",
+    "static/media/404-Error.svg": "/medical-website/static/media/404-Error.84af93884061ede9932fbffa3f536132.svg",
+    "static/media/user2.jpg": "/medical-website/static/media/user2.169aa518b7cd1d823f8f.jpg",
+    "static/media/user3.jpg": "/medical-website/static/media/user3.b5f2904ed6be1be34b95.jpg",
+    "index.html": "/medical-website/index.html",
+    "main.078f751c.css.map": "/medical-website/static/css/main.078f751c.css.map",
+    "main.107426dd.js.map": "/medical-website/static/js/main.107426dd.js.map",
+    "787.6eb144a4.chunk.js.map": "/medical-website/static/js/787.6eb144a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.078f751c.css",
+    "static/js/main.107426dd.js"
+  ]
+}
