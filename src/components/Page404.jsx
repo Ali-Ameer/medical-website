@@ -1,11 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { Navbar } from "./Navbar";
 export const Page404 = () => {
   const { t, i18n } = useTranslation();
   document.body.dir = i18n.dir();
   return (
-    <>
-      <Navbar />
       <article
         className={`flex flex-col w-full h-[calc(100vh-56px)] bg-white dark:bg-gray-900 items-center justify-center 
     ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}
@@ -24,6 +21,5 @@ export const Page404 = () => {
           </a>
         </div>
       </article>
-    </>
   );
 };

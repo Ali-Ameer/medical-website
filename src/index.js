@@ -2,14 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { AppRouterProvider } from "./router";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import  './language/i18n';
+import "./language/i18n";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <AppRouterProvider />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 

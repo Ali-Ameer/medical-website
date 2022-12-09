@@ -34,9 +34,9 @@ export const Navbar = () => {
         </nav>
         <DarkMode/>
         <ChangeLang/>
-        <button className="py-2 px-4 md:py-2 md:px-6 bg-Blue hover:bg-blue-600 transition-all text-white text-base font-medium rounded-md drop-shadow">
+        <a href="/#contact" className="py-2 px-4 md:py-2 md:px-6 bg-Blue hover:bg-blue-600 transition-all text-white text-base font-medium rounded-md drop-shadow">
         {t("navbar.btn")}
-        </button>
+        </a>
         
         <div className="flex md:hidden transition-all">
         {menu ? 

@@ -12,7 +12,7 @@ export const Contact = () => {
   const [msg, setMsg] = useState(null);
 
   return (
-    <section className={`flex flex-col md:flex-row gap-8 px-2 md:px-28 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`} id="contact">
+    <section className={`flex flex-col md:flex-row gap-8 px-2 lg:px-28 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`} id="contact">
       <div className="left w-full md:w-[40%] flex flex-col gap-6">
         <p className="text-base text-Blue font-medium text-start">
           {t("contact.sectionName")}

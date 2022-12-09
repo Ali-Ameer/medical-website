@@ -38,8 +38,7 @@ export const Testimonial = () => {
 
   return (
     <section
-      className={`px-2 md:px-28 flex flex-col w-full gap-6 py-12"
-      id="testimonials ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}
+      className={`px-2 lg:px-28 flex flex-col w-full gap-6 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`} id="testimonials"
     >
       <div className="nav w-full flex items-center justify-between">
         <div className="flex flex-col gap-2 justify-start pb-6">

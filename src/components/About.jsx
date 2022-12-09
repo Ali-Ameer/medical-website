@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 export const About = () => {
   const { t, i18n } = useTranslation();
   return (
-    <section className={`flex flex-col md:flex-row px-2 md:px-28 my-4 gap-7 dark:bg-gray-900 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`} id="about">
+    <section className={`flex flex-col md:flex-row px-2 lg:px-28 my-4 gap-7 dark:bg-gray-900 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`} id="about">
       <div className="left flex flex-col w-full md:w-[50%] px-0 md:px-20 items-center justify-center relative">
         <img src={require("../assets/images/female-doctor-pointing.png")}
           alt="person"
@@ -49,9 +49,9 @@ export const About = () => {
         <p className="text-base text-gray-600 font-medium text-start mb-6">
         {t("about.paragraph")}
         </p>
-        <button className="w-fit py-2 px-6 bg-Blue hover:bg-blue-600 transition-all text-white text-base font-medium rounded-md drop-shadow">
+        <a href="/#contact" className="w-fit py-2 px-6 bg-Blue hover:bg-blue-600 transition-all text-white text-base font-medium rounded-md drop-shadow">
         {t("about.btn")}
-        </button>
+        </a>
       </div>
     </section>
   );

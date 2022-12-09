@@ -10,7 +10,7 @@ export const Header = () => {
 
   return (
     <div
-      className={`hero flex flex-col w-full px-2 md:px-28 pt-8 md:pt-0 items-center justify-center bg-white dark:bg-gray-900 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}
+      className={`hero flex flex-col w-full px-2 lg:px-28 pt-8 md:pt-0 items-center justify-center bg-white dark:bg-gray-900 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}
       id="header"
     >
       <div className="infoAndImg-col flex flex-col md:flex-row gap-6 w-full items-center justify-center">
@@ -47,9 +47,9 @@ export const Header = () => {
           </div>
 
           <div className="absolute top-[70%] md:top-[60%] left-[0] md:left-[-5%] flex bg-[#ffffffa6] dark:bg-gray-800 dark:bg-opacity-80 drop-shadow-lg gap-4 p-2 rounded-lg items-center justify-center animate-animationDurations">
-            <button className="py-2 px-6 bg-Orange hover:bg-[#e56a51] transition-all text-white text-base font-medium rounded-md drop-shadow">
+            <a href="/#contact" className="py-2 px-6 bg-Orange hover:bg-[#e56a51] transition-all text-white text-base font-medium rounded-md drop-shadow">
               {t("header.makeAppointment")}
-            </button>
+            </a>
           </div>
 
           <TbActivityHeartbeat className="absolute top-[25%] md:top-[20%] right-[10%] md:right-[25%] text-4xl bg-white dark:bg-gray-800 rounded-full drop-shadow-xl text-Blue p-2 animate-animationDurations" />

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t, i18n } = useTranslation();
   return (
-      <footer className={`w-full mt-40 px-2 md:px-28 bg-gray-900 dark:bg-gray-800 flex flex-col justify-items-center  ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}>
+      <footer className={`w-full mt-40 px-2 lg:px-28 bg-gray-900 dark:bg-gray-800 flex flex-col justify-items-center  ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}>
 
         <div className="newsletter flex flex-col md:flex-row h-40 mx-20 w-full md:w-95 bg-Blue items-center place-self-center rounded-lg -translate-y-1/2">
           <div className="left flex-1 flex flex-col items-center justify-center md:pl-2">

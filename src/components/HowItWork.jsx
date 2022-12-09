@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export const HowItWork = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className={`flex flex-col px-2 md:px-28 items-center justify-center gap-6 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}>
+    <div className={`flex flex-col px-2 lg:px-28 items-center justify-center gap-6 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}>
       <h1 className="text-4xl md:text-6xl text-gray-800 dark:text-white font-bold ">
         {t("howItWork.title")}
       </h1>
