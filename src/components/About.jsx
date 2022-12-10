@@ -43,7 +43,7 @@ export const About = () => {
 
       <div className="right flex flex-col gap-3 w-full md:w-[50%] justify-center relative">
         <p className="text-base text-Blue font-medium text-start">{t("about.sectionName")}</p>
-        <h1 className="text-4xl md:text-6xl text-gray-800 dark:text-white font-bold text-start mt-4 mb-6">
+        <h1 className="text-4xl lg:text-6xl text-gray-800 dark:text-white font-bold text-start mt-4 mb-6">
         {t("about.title")}
         </h1>
         <p className="text-base text-gray-600 font-medium text-start mb-6">

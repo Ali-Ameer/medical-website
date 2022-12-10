@@ -5,7 +5,7 @@ export const HowItWork = () => {
   const { t, i18n } = useTranslation();
   return (
     <div className={`flex flex-col px-2 lg:px-28 items-center justify-center gap-6 py-12 ${i18n.language === "en" ? "font-Poppins" : "font-Cairo"}`}>
-      <h1 className="text-4xl md:text-6xl text-gray-800 dark:text-white font-bold ">
+      <h1 className="text-4xl lg:text-6xl text-gray-800 dark:text-white font-bold ">
         {t("howItWork.title")}
       </h1>
       <p className="text-gray-600 w-full md:w-[50%] text-center dark:text-gray-300 font-medium">

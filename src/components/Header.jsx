@@ -15,7 +15,7 @@ export const Header = () => {
     >
       <div className="infoAndImg-col flex flex-col md:flex-row gap-6 w-full items-center justify-center">
         <div className="left w-full md:w-[55%] flex flex-col gap-6">
-          <h1 className="text-gray-800 dark:text-white text-4xl md:text-6xl font-bold leading-loose">
+          <h1 className="text-gray-800 dark:text-white text-4xl lg:text-6xl font-bold leading-loose">
             <ReactMarkdown
               components={{
                 em: ({ node, ...props }) => (
@@ -58,7 +58,8 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="cards-col flex flex-col md:flex-row gap-6 w-full py-6 bg-Blue rounded-lg drop-shadow-md items-center justify-center translate-y-[-3rem] z-50">
+      <div className="cards-col flex flex-col md:flex-row gap-2 lg:gap-6 w-full py-6 bg-Blue rounded-lg drop-shadow-md items-center justify-center translate-y-[-3rem] z-50">
+
         <div className="card1 flex flex-col w-[290px] px-4 py-8 bg-white dark:bg-gray-900 rounded-md drop-shadow-md items-center justify-center">
           <span className="p-2 bg-Blue rounded-md flex items-center justify-center ">
             <FaUserMd className="text-2xl text-white" />

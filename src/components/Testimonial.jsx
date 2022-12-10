@@ -45,7 +45,7 @@ export const Testimonial = () => {
           <p className="text-base text-Blue font-medium text-start">
             {t("testimonial.sectionName")}
           </p>
-          <h1 className="text-4xl md:text-6xl text-gray-800 dark:text-white font-bold">
+          <h1 className="text-4xl lg:text-6xl text-gray-800 dark:text-white font-bold">
             {t("testimonial.title")}
           </h1>
         </div>
